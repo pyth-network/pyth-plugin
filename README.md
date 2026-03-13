@@ -1,4 +1,4 @@
-# Pyth Pro — Cursor Plugin
+# Pyth: Cursor Plugin
 
 Real-time and historical market data from [Pyth](https://pyth.network) — 2000+ price feeds across crypto, equities, FX, metals, commodities, and more.
 
