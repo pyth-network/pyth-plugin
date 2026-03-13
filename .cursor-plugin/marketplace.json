@@ -1,0 +1,18 @@
+{
+  "name": "pyth-pro",
+  "owner": {
+    "name": "Pyth Data Association",
+    "email": "aditya@pyth.network"
+  },
+  "metadata": {
+    "description": "Pyth Pro Cursor plugin — real-time and historical market data",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "pyth-pro",
+      "source": ".",
+      "description": "Real-time and historical market data from Pyth — 2000+ price feeds across crypto, equities, FX, metals, commodities, and more."
+    }
+  ]
+}
