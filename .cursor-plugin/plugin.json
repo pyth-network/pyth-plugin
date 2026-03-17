@@ -1,13 +1,17 @@
 {
   "name": "pyth-pro",
-  "displayName": "Pyth",
   "version": "0.1.0",
   "description": "Real-time and historical market data from Pyth. Supports 2000+ price feeds across crypto, equities, FX, metals, commodities, and more. Connects to the Pyth MCP server and provides skills for portfolio tracking, volatility analysis, FX conversion, data export, and more.",
   "author": {
     "name": "Pyth Data Association",
     "email": "aditya@pyth.network"
   },
+  "homepage": "https://pyth.network",
+  "repository": "https://github.com/pyth-network/pyth-plugin",
   "license": "Apache-2.0",
   "keywords": ["pyth", "oracle", "price-feeds", "market-data", "crypto", "defi", "mcp", "real-time","forex","funding-rates","equities","metals","commodities"],
-  "logo": "assets/logo.svg"
+  "logo": "assets/logo.svg",
+  "rules": "rules/",
+  "skills": "skills/",
+  "mcpServers": ".mcp.json"
 }
