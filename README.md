@@ -60,7 +60,7 @@ Try these in Cursor's agent:
 
 To obtain or revoke an access token, visit [pyth.network/pricing](https://pyth.network/pricing).
 
-Report security concerns to [aditya@pyth.network](mailto:aditya@pyth.network) or via [GitHub Issues](https://github.com/pyth-network/pyth-crosschain/issues).
+Report security concerns via [GitHub Private Vulnerability Reporting](https://github.com/pyth-network/pyth-plugin/security/advisories/new).
 
 ## Links
 
