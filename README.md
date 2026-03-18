@@ -1,4 +1,4 @@
-# Pyth Pro — Cursor Plugin
+# Pyth: Cursor Plugin
 
 Real-time and historical market data from [Pyth](https://pyth.network) — 2000+ price feeds across crypto, equities, FX, metals, commodities, and more.
 
@@ -49,6 +49,18 @@ Try these in Cursor's agent:
 - "Convert 10,000 USD to EUR"
 - "What are the top funding rates right now?"
 - "Track a portfolio of 2 BTC, 100 ETH, and 5000 SOL"
+
+## Security
+
+- **No executable code** — this plugin is entirely markdown, configuration files, and an SVG logo. No binaries, no scripts, no dependencies.
+- **Single network endpoint** — all data flows over HTTPS to `mcp.pyth.network`. No other external connections.
+- **Read-only** — every MCP tool is read-only. The plugin cannot execute trades, modify data, or write to your filesystem.
+- **Access tokens are never stored or logged** — tokens are passed per-request to `get_latest_price` only. Plugin rules explicitly prohibit echoing, storing, or exporting token values.
+- **Untrusted data handling** — text fields from `get_symbols` (names, descriptions) are treated as data, never executed as instructions.
+
+To obtain or revoke an access token, visit [pyth.network/pricing](https://pyth.network/pricing).
+
+Report security concerns via [GitHub Private Vulnerability Reporting](https://github.com/pyth-network/pyth-plugin/security/advisories/new).
 
 ## Links
 
